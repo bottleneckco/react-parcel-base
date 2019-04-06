@@ -1,10 +1,12 @@
 import React from 'react';
 import './stylesheets/styles.scss';
 
+import Sample from './components/Sample';
+
 const App = () => (
   <div>
     <main>
-      <span>Hi there!</span>
+      <Sample />
     </main>
   </div>
 );
